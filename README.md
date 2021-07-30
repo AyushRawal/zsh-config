@@ -15,7 +15,7 @@
 
 *colored-man-pages.zsh and command-not-found.zsh are from [ohmyzsh]( https://github.com/ohmyzsh/ohmyzsh ).*
 
-*The completions.zsh is a slightly modified version of [Phantas0s' completions.zsh](https://github.com/Phantas0s) >> [File]( https://github.com/Phantas0s/.dotfiles/blob/master/zsh/completion.zsh ).*
+*The completions.zsh is a slightly modified version of [Phantas0s'](https://github.com/Phantas0s) [completions.zsh]( https://github.com/Phantas0s/.dotfiles/blob/master/zsh/completion.zsh ).*
 
 *Note : I am using [exa](https://github.com/ogham/exa) instead of ls.*
 
@@ -36,3 +36,7 @@ cp $HOME/.config/zsh/zshenv $HOME/.zshenv
 
 You may also want to remove `.zshrc`, `.zcomdump`, `.zsh_history`, etc. from your home folder.
 You can edit your PATH and other environment variables in `.zshenv` in your home directory.
+
+## Licenses
+
+This repository uses the ZSH license, unless explicitly mentioned in the file header. See LICENSE for more information.
