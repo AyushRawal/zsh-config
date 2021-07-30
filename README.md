@@ -19,8 +19,6 @@
 
 *Note : I am using [exa](https://github.com/ogham/exa) instead of ls.*
 
-<br>
-
 ## Installation
 
 For installation, run the following commands in your terminal :
