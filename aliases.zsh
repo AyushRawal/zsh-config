@@ -8,6 +8,8 @@ alias fgrep='fgrep --color=auto'
 # confirm before overwriting something
 alias cp="cp -i"
 alias mv='mv -i'
+
+# though this is a little annoying, it can really save your ass sometimes
 alias rm='rm -I'
 
 # easier to read disk
