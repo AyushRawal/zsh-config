@@ -10,7 +10,7 @@ alias cp="cp -i"
 alias mv='mv -i'
 
 # though this is a little annoying, it can really save your ass sometimes
-alias rm='rm -I'
+alias rm='rm -i'
 
 # easier to read disk
 alias df='df -h'                          # human-readable sizes

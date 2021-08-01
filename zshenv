@@ -21,3 +21,4 @@ export NVM_DIR="$XDG_CONFIG_HOME/nvm"
 
 export PATH=$HOME/.local/bin/nvim/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
+export TEMPLATE_PATH=$HOME/Code/cp/template.cpp
