@@ -32,7 +32,7 @@ alias lt='exa -T --color=auto'
 alias lr='exa -R --color=auto'
 
 # bat
-alias cat='bat --color=auto'
+alias bat='bat --color=auto'
 
 # fd
 alias fd='fdfind'
