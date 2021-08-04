@@ -28,6 +28,12 @@ setopt HIST_VERIFY               # Do not execute immediately upon history expan
 autoload -Uz colors && colors
 eval "$(dircolors -b $ZDOTDIR/dircolors)"
 
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+bindkey '^[OA' up-line-or-search
+bindkey '^[OB' down-line-or-search
+
 [[ ! -f $ZDOTDIR/aliases.zsh ]] || source $ZDOTDIR/aliases.zsh
 [[ ! -f $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme ]] || source $ZDOTDIR/powerlevel10k/powerlevel10k.zsh-theme
 
