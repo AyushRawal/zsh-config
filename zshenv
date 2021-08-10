@@ -8,6 +8,8 @@ HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
 HISTSIZE=10000                   # Maximum events for internal history
 SAVEHIST=10000                   # Maximum events in history file
 
+KEYTIMEOUT=1
+
 export BAT_THEME="Nord"
 export BAT_PAGER="less -R" 
 export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git/*"'
@@ -21,4 +23,5 @@ export NVM_DIR="$XDG_CONFIG_HOME/nvm"
 
 export PATH=$HOME/.local/bin/nvim/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
+export PATH=$HOME/.local/bin/heroku/bin:$PATH
 export TEMPLATE_PATH=$HOME/Code/cp/template.cpp
