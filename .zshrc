@@ -37,7 +37,6 @@ eval "$(dircolors -b $ZDOTDIR/dircolors)"
 [[ ! -f $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]] || source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 [[ ! -f $ZDOTDIR/dotzshs/command-not-found.zsh ]] || source $ZDOTDIR/dotzshs/command-not-found.zsh
-[[ ! -f $ZDOTDIR/dotzshs/colored-man-pages.zsh ]] || source $ZDOTDIR/dotzshs/colored-man-pages.zsh
 [[ ! -f $ZDOTDIR/dotzshs/pip.zsh ]] || source $ZDOTDIR/dotzshs/pip.zsh
 [[ ! -f $ZDOTDIR/dotzshs/fzf-key-bindings.zsh ]] || source $ZDOTDIR/dotzshs/fzf-key-bindings.zsh
 

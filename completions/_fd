@@ -1,4 +1,4 @@
-#compdef fd fdfind
+#compdef fd
 
 ##
 # zsh completion function for fd

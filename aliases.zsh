@@ -13,8 +13,9 @@ alias mv='mv -i'
 alias rm='rm -i'
 
 # easier to read disk
-alias df='df -h'                          # human-readable sizes
-alias free='free -m'                      # show sizes in MB
+alias df='df -h'
+alias free='free -h'
+alias du='du -h'
 
 alias mpv="mpv.com"
 alias vi="nvim"
@@ -31,8 +32,8 @@ alias la='exa -a --color=auto'
 alias lt='exa -T --color=auto'
 alias lr='exa -R --color=auto'
 
-# bat
-alias bat='bat --color=auto'
+# fzf cd 
+alias fcd='cd $(eval $FZF_ALT_C_COMMAND | fzf +m)'
 
-# fd
-alias fd='fdfind'
+# git diff with syntax hl
+alias batdiff="git diff --name-only --diff-filter=d | xargs bat --diff"

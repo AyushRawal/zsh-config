@@ -10,11 +10,11 @@ SAVEHIST=10000                   # Maximum events in history file
 
 KEYTIMEOUT=1
 
-export BAT_THEME="Nord"
-export BAT_PAGER="less -R" 
-export FZF_DEFAULT_COMMAND='rg --files --hidden --glob "!.git/*"'
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+export FZF_DEFAULT_COMMAND='fd -H -E .git'
 export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
-export FZF_DEFAULT_OPTS='--reverse'
+export FZF_ALT_C_COMMAND='fd -H -t d -E .git'
+export FZF_DEFAULT_OPTS='--reverse --height 40% -m'
 export EDITOR='nvim'
 
 export NVM_DIR="$XDG_CONFIG_HOME/nvm"
@@ -23,6 +23,4 @@ export NVM_DIR="$XDG_CONFIG_HOME/nvm"
 
 export PATH=$HOME/.local/bin/nvim/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
-export PATH=$HOME/.local/bin/heroku/bin:$PATH
-# export PATH=$HOME/.local/bin/node_modules/bin:$PATH
 export TEMPLATE_PATH=$HOME/Code/cp/template.cpp
