@@ -25,8 +25,6 @@ export DELTA_PAGER="less -R"
 export LESS='+X'
 
 export PATH=$HOME/.config/fnm:$PATH
-export PATH=$HOME/.local/nvim/bin:$PATH
 export PATH=$HOME/.local/bin:$PATH
-export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:$GOPATH/bin
 export TEMPLATE_PATH=$HOME/Code/cp/template.cpp
