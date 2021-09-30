@@ -16,7 +16,7 @@ export FZF_CTRL_T_COMMAND=$FZF_DEFAULT_COMMAND
 export FZF_ALT_C_COMMAND='fd -H -t d -E .git'
 export FZF_DEFAULT_OPTS='--reverse --height 40% -m'
 export FNM_DIR=$HOME/.config/fnm
-export PRETTIERD_DEFAULT_CONFIG=$HOME/.prettierrc
+# export PRETTIERD_DEFAULT_CONFIG=$HOME/.prettierrc
 export EDITOR='nvim'
 
 export GOPATH="$HOME/.local/go"
