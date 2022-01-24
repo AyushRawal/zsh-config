@@ -9,7 +9,7 @@ alias fgrep='fgrep --color=auto'
 alias cp="cp -i"
 alias mv='mv -i'
 
-# though this is a little annoying, it can really save your ass sometimes
+# although this is a little annoying, it can really save your ass sometimes
 alias rm='rm -i'
 
 # easier to read disk
@@ -17,7 +17,7 @@ alias df='df -h'
 alias free='free -h'
 alias du='du -h'
 
-alias mpv="mpv.com"
+alias open="xdg-open"
 alias vi="nvim"
 alias vim="nvim"
 

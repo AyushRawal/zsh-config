@@ -4,10 +4,6 @@ export XDG_DATA_HOME=$HOME/.local/share
 
 export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
 
-HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
-HISTSIZE=10000                   # Maximum events for internal history
-SAVEHIST=10000                   # Maximum events in history file
-
 KEYTIMEOUT=1
 
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
@@ -27,4 +23,5 @@ export LESS='+X'
 export PATH=$HOME/.config/fnm:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$PATH:$GOPATH/bin
-export TEMPLATE_PATH=$HOME/Code/cp/template.cpp
+export TEMPLATE_PATH=$HOME/Data/Code/cp/template.cpp
+

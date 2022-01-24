@@ -12,7 +12,7 @@ setopt PUSHD_IGNORE_DUPS    # Do not store duplicates in the stack.
 setopt PUSHD_SILENT         # Do not print the directory stack after pushd or popd.
 
 setopt EXTENDED_GLOB        # Use extended globbing syntax.
-unsetopt BEEP 		        # beeps are annoying
+unsetopt BEEP 		          # beeps are annoying
 
 # history
 setopt EXTENDED_HISTORY          # Write the history file in the ':start:elapsed;command' format.
@@ -24,6 +24,10 @@ setopt HIST_FIND_NO_DUPS         # Do not display a previously found event.
 setopt HIST_IGNORE_SPACE         # Do not record an event starting with a space.
 setopt HIST_SAVE_NO_DUPS         # Do not write a duplicate event to the history file.
 setopt HIST_VERIFY               # Do not execute immediately upon history expansion.
+
+HISTFILE="$ZDOTDIR/.zhistory"    # History filepath
+HISTSIZE=10000                   # Maximum events for internal history
+SAVEHIST=10000                   # Maximum events in history file
 
 autoload -Uz colors && colors
 eval "$(dircolors -b $ZDOTDIR/dircolors)"
