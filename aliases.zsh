@@ -37,3 +37,9 @@ alias fcd='cd $(eval $FZF_ALT_C_COMMAND | fzf +m)'
 
 # git diff with syntax hl
 alias batdiff="git diff --name-only --diff-filter=d | xargs bat --diff"
+
+alias drgn="dragon-drag-and-drop"
+
+alias cpfile="xclip-copyfile"
+alias cutfile="xclip-cutfile"
+alias pastefile="xclip-pastefile"
