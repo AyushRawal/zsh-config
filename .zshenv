@@ -20,7 +20,7 @@ export GOPATH="$HOME/.local/go"
 export DELTA_PAGER="less -R"
 export LESS='+X'
 
-export PATH=$HOME/.config/fnm:$PATH
+export PATH=$HOME/.fnm:$PATH
 export PATH=$HOME/.local/bin:$PATH
 export PATH=$PATH:$GOPATH/bin
 export TEMPLATE_PATH=$HOME/Data/Code/cp/template.cpp
